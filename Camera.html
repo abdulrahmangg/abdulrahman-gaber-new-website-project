@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Electronics</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="phones.html">Phones</a>
+            <a href="laptops.html">Laptops/Computers</a>
+            <a href="camera.html">Cameras</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="product">
+            <img src="images/canon-camera.jpg" alt="Canon Camera">
+            <p>Get the <a href="canon.html">canon camera</a> for only a discount price of £750</p>
+        </div>
+        <div class="product">
+            <img src="images/nikon-camera.jpg" alt="Nikon Camera">
+            <p>Get your <a href="nikon.html">Nikon camera</a> for only £699</p>
+        </div>
+        <div class="product">
+            <img src="images/fujifilm-camera.jpg" alt="Fujifilm Camera">
+            <p>Get the <a href="fujifilm.html">Fujifilm camera</a> for a discount price for only £799</p>
+        </div>
+        <div class="product">
+            <img src="images/instax-camera.jpg" alt="Instax Camera">
+            <p>Get the <a href="instax.html">Instax</a> for the discount offer for only £45</p>
+        </div>
+    </div>
+</body>
+</html>
+CSS (styles.css)
+This CSS will be the same as the one provided previously, but I will include it here again for clarity.
+
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    margin-top: 10px;
+}
